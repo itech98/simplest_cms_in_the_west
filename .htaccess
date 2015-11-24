@@ -1,0 +1,13 @@
+Options All -Indexes
+# IndexIgnore *
+<IfModule mod_rewrite.c>
+        RewriteEngine on
+        # IF USING LOCALHOST MAY NEED TO COMMENT THE  REWRITEBASE OUT
+        # MAY ALSO NEED TO CHANGE apache2.conf in apache config to
+        # <DIRECTORY /where/it/is> AllowOverride All </Directory>
+        RewriteBase /
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteCond %{REQUEST_FILENAME} !-l
+        RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
