@@ -1,0 +1,38 @@
+body { background-color: #edc79a; }
+
+#container {
+	margin: auto;
+     width: 50%;
+     border:3px solid #73AD21;
+    padding: 10px;
+}
+
+#main { width:700px; }
+
+.menu { padding:10px; }
+ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+	 width:700px;
+ } 
+ 
+ li {
+	background-color:#000000;
+    float: left;
+	padding: 10px;
+	width:90px;
+ }
+
+.menu a {
+    display: block;
+    width: 60px;
+	color:#ffffff;
+}
+
+
+ 
+ 
+ /* CMS STYLES */
+ .class_img_post
+ { width:150; height:150; }
