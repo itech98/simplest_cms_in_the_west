@@ -1,5 +1,9 @@
 # simplest_cms_in_the_west
 The Simplest CMS in the west uses either SQLite or MySQL to run, the default is SQLite.
+We have started a blog at:
+
+http://simplest_cms_blog.netne.net/
+
 We encountered a problem using Ubuntu Linux where the directory:
 
 site.com/inc/db/small.sqlite  <-- the database file
