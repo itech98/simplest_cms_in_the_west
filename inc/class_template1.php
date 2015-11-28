@@ -3,7 +3,7 @@
 	 * Simple template engine class (use [@tag] tags in your templates).
 	 * 
 	 * @link http://www.broculos.net/ Broculos.net Programming Tutorials
-	 * @author Nuno Freitas <nunofreitas@gmail.com>
+	 * @author I.M.SHERMAN
 	 * @version 1.0
 	 */
     class theme {
